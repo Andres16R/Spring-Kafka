@@ -1,0 +1,18 @@
+server:
+  port: 9094
+  servlet:
+    context-path: /msa-kafka-consumer
+spring:
+  jpa:
+    hibernate.ddl-auto: none
+    show-sql: true
+    database: oracle
+  datasource:
+    url: jdbc:oracle:thin:@172.31.2.3:1521:FAMIDESA
+    username: SEI
+    password: seidesa2011
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      pool-name: msa-autorizaciones-batch

@@ -1,0 +1,1078 @@
+[2022-10-11 11:52:47,447] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,450] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,456] WARN C:kafkaZookeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,463] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,464] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,464] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,464] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,468] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-10-11 11:52:47,468] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-10-11 11:52:47,468] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-10-11 11:52:47,469] WARN Either no config or no quorum defined in config, running in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2022-10-11 11:52:47,471] INFO Log4j 1.2 jmx support not found; jmx disabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2022-10-11 11:52:47,472] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,472] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,473] WARN C:kafkaZookeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,473] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,473] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,473] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,473] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-10-11 11:52:47,474] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2022-10-11 11:52:47,489] INFO ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@2abf4075 (org.apache.zookeeper.server.ServerMetrics)
+[2022-10-11 11:52:47,493] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-10-11 11:52:47,509] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,509] INFO   ______                  _                                           (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,509] INFO  |___  /                 | |                                          (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,509] INFO     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __    (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,510] INFO    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__| (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,510] INFO   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |     (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,510] INFO  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_| (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,511] INFO                                               | |                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,511] INFO                                               |_|                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,511] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,534] INFO Server environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,535] INFO Server environment:host.name=10.242.14.24 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,535] INFO Server environment:java.version=11.0.10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,535] INFO Server environment:java.vendor=Red Hat, Inc. (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,535] INFO Server environment:java.home=C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,536] INFO Server environment:java.class.path=C:\kafka\kafkaPatron3\libs\activation-1.1.1.jar;C:\kafka\kafkaPatron3\libs\aopalliance-repackaged-2.6.1.jar;C:\kafka\kafkaPatron3\libs\argparse4j-0.7.0.jar;C:\kafka\kafkaPatron3\libs\audience-annotations-0.5.0.jar;C:\kafka\kafkaPatron3\libs\commons-cli-1.4.jar;C:\kafka\kafkaPatron3\libs\commons-lang3-3.8.1.jar;C:\kafka\kafkaPatron3\libs\connect-api-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-basic-auth-extension-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-file-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-json-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-mirror-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-mirror-client-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-runtime-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-transforms-3.2.1.jar;C:\kafka\kafkaPatron3\libs\hk2-api-2.6.1.jar;C:\kafka\kafkaPatron3\libs\hk2-locator-2.6.1.jar;C:\kafka\kafkaPatron3\libs\hk2-utils-2.6.1.jar;C:\kafka\kafkaPatron3\libs\jackson-annotations-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-core-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-databind-2.12.6.1.jar;C:\kafka\kafkaPatron3\libs\jackson-dataformat-csv-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-datatype-jdk8-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-jaxrs-base-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-jaxrs-json-provider-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-module-jaxb-annotations-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-module-scala_2.12-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jakarta.activation-api-1.2.1.jar;C:\kafka\kafkaPatron3\libs\jakarta.annotation-api-1.3.5.jar;C:\kafka\kafkaPatron3\libs\jakarta.inject-2.6.1.jar;C:\kafka\kafkaPatron3\libs\jakarta.validation-api-2.0.2.jar;C:\kafka\kafkaPatron3\libs\jakarta.ws.rs-api-2.1.6.jar;C:\kafka\kafkaPatron3\libs\jakarta.xml.bind-api-2.3.2.jar;C:\kafka\kafkaPatron3\libs\javassist-3.27.0-GA.jar;C:\kafka\kafkaPatron3\libs\javax.servlet-api-3.1.0.jar;C:\kafka\kafkaPatron3\libs\javax.ws.rs-api-2.1.1.jar;C:\kafka\kafkaPatron3\libs\jaxb-api-2.3.0.jar;C:\kafka\kafkaPatron3\libs\jersey-client-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-common-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-container-servlet-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-container-servlet-core-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-hk2-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-server-2.34.jar;C:\kafka\kafkaPatron3\libs\jetty-client-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-continuation-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-http-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-io-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-security-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-server-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-servlet-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-servlets-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-util-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-util-ajax-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jline-3.21.0.jar;C:\kafka\kafkaPatron3\libs\jopt-simple-5.0.4.jar;C:\kafka\kafkaPatron3\libs\jose4j-0.7.9.jar;C:\kafka\kafkaPatron3\libs\kafka-clients-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-log4j-appender-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-metadata-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-raft-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-server-common-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-shell-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-storage-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-storage-api-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-examples-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-scala_2.12-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-test-utils-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-tools-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka_2.12-3.2.1.jar;C:\kafka\kafkaPatron3\libs\lz4-java-1.8.0.jar;C:\kafka\kafkaPatron3\libs\maven-artifact-3.8.4.jar;C:\kafka\kafkaPatron3\libs\metrics-core-2.2.0.jar;C:\kafka\kafkaPatron3\libs\metrics-core-4.1.12.1.jar;C:\kafka\kafkaPatron3\libs\netty-buffer-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-codec-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-common-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-handler-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-resolver-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-tcnative-classes-2.0.46.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-classes-epoll-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-native-epoll-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-native-unix-common-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\osgi-resource-locator-1.0.3.jar;C:\kafka\kafkaPatron3\libs\paranamer-2.8.jar;C:\kafka\kafkaPatron3\libs\plexus-utils-3.3.0.jar;C:\kafka\kafkaPatron3\libs\reflections-0.9.12.jar;C:\kafka\kafkaPatron3\libs\reload4j-1.2.19.jar;C:\kafka\kafkaPatron3\libs\rocksdbjni-6.29.4.1.jar;C:\kafka\kafkaPatron3\libs\scala-collection-compat_2.12-2.6.0.jar;C:\kafka\kafkaPatron3\libs\scala-java8-compat_2.12-1.0.2.jar;C:\kafka\kafkaPatron3\libs\scala-library-2.12.15.jar;C:\kafka\kafkaPatron3\libs\scala-logging_2.12-3.9.4.jar;C:\kafka\kafkaPatron3\libs\scala-reflect-2.12.15.jar;C:\kafka\kafkaPatron3\libs\slf4j-api-1.7.36.jar;C:\kafka\kafkaPatron3\libs\slf4j-reload4j-1.7.36.jar;C:\kafka\kafkaPatron3\libs\snappy-java-1.1.8.4.jar;C:\kafka\kafkaPatron3\libs\trogdor-3.2.1.jar;C:\kafka\kafkaPatron3\libs\zookeeper-3.6.3.jar;C:\kafka\kafkaPatron3\libs\zookeeper-jute-3.6.3.jar;C:\kafka\kafkaPatron3\libs\zstd-jni-1.5.2-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,537] INFO Server environment:java.library.path=C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.6.0_x64__8wekyb3d8bbwe;C:\oracle\product\10.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\gs\gs8.64\bin;C:\Program Files (x86)\gs\gs8.64\lib;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\bin;C:\Users\mniampira\AppData\Local\Microsoft\WindowsApps;C:\Users\mniampira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mniampira\AppData\Roaming\npm;C:\Users\mniampira\AppData\Local\Programs\oh-my-posh\bin;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,538] INFO Server environment:java.io.tmpdir=C:\Users\MNIAMP~1\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,538] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,538] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,538] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,539] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,539] INFO Server environment:user.name=mniampira (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,539] INFO Server environment:user.home=C:\Users\mniampira (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,539] INFO Server environment:user.dir=C:\kafka\kafkaPatron3\bin\windows (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,540] INFO Server environment:os.memory.free=488MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,540] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,540] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,540] INFO zookeeper.enableEagerACLCheck = false (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,541] INFO zookeeper.digest.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,541] INFO zookeeper.closeSessionTxn.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,541] INFO zookeeper.flushDelay=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,541] INFO zookeeper.maxWriteQueuePollTime=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,542] INFO zookeeper.maxBatchSize=1000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,542] INFO zookeeper.intBufferStartingSizeBytes = 1024 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,544] INFO Weighed connection throttling is disabled (org.apache.zookeeper.server.BlueThrottle)
+[2022-10-11 11:52:47,546] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,546] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,547] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2022-10-11 11:52:47,547] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2022-10-11 11:52:47,548] INFO zookeeper.pathStats.slotCapacity = 60 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,549] INFO zookeeper.pathStats.slotDuration = 15 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,549] INFO zookeeper.pathStats.maxDepth = 6 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,549] INFO zookeeper.pathStats.initialDelay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,550] INFO zookeeper.pathStats.delay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,550] INFO zookeeper.pathStats.enabled = false (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-10-11 11:52:47,552] INFO The max bytes for all large requests are set to 104857600 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,553] INFO The large request threshold is set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,553] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir C:kafkaZookeper\version-2 snapdir C:kafkaZookeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,570] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2022-10-11 11:52:47,572] WARN maxCnxns is not configured, using default value 0. (org.apache.zookeeper.server.ServerCnxnFactory)
+[2022-10-11 11:52:47,574] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 32 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2022-10-11 11:52:47,585] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2022-10-11 11:52:47,606] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2022-10-11 11:52:47,607] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2022-10-11 11:52:47,608] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2022-10-11 11:52:47,608] INFO zookeeper.commitLogCount=500 (org.apache.zookeeper.server.ZKDatabase)
+[2022-10-11 11:52:47,613] INFO zookeeper.snapshot.compression.method = CHECKED (org.apache.zookeeper.server.persistence.SnapStream)
+[2022-10-11 11:52:47,618] INFO Reading snapshot C:kafkaZookeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileSnap)
+[2022-10-11 11:52:47,621] INFO The digest value is empty in snapshot (org.apache.zookeeper.server.DataTree)
+[2022-10-11 11:52:47,683] INFO 190 txns loaded in 48 ms (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-10-11 11:52:47,683] INFO Snapshot loaded in 74 ms, highest zxid is 0xbe, digest is 386500230193 (org.apache.zookeeper.server.ZKDatabase)
+[2022-10-11 11:52:47,683] INFO Snapshotting: 0xbe to C:kafkaZookeper\version-2\snapshot.be (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-10-11 11:52:47,689] INFO Snapshot taken in 6 ms (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-10-11 11:52:47,704] INFO zookeeper.request_throttler.shutdownTimeout = 10000 (org.apache.zookeeper.server.RequestThrottler)
+[2022-10-11 11:52:47,703] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2022-10-11 11:52:47,722] INFO Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0 (org.apache.zookeeper.server.ContainerManager)
+[2022-10-11 11:52:47,724] INFO ZooKeeper audit is disabled. (org.apache.zookeeper.audit.ZKAuditProvider)
+[2022-10-11 11:52:57,085] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2022-10-11 11:52:57,543] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2022-10-11 11:52:57,642] INFO starting (kafka.server.KafkaServer)
+[2022-10-11 11:52:57,642] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2022-10-11 11:52:57,657] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2022-10-11 11:52:57,662] INFO Client environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,662] INFO Client environment:host.name=10.242.14.24 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,662] INFO Client environment:java.version=11.0.10 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,662] INFO Client environment:java.vendor=Red Hat, Inc. (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,662] INFO Client environment:java.home=C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,663] INFO Client environment:java.class.path=C:\kafka\kafkaPatron3\libs\activation-1.1.1.jar;C:\kafka\kafkaPatron3\libs\aopalliance-repackaged-2.6.1.jar;C:\kafka\kafkaPatron3\libs\argparse4j-0.7.0.jar;C:\kafka\kafkaPatron3\libs\audience-annotations-0.5.0.jar;C:\kafka\kafkaPatron3\libs\commons-cli-1.4.jar;C:\kafka\kafkaPatron3\libs\commons-lang3-3.8.1.jar;C:\kafka\kafkaPatron3\libs\connect-api-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-basic-auth-extension-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-file-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-json-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-mirror-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-mirror-client-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-runtime-3.2.1.jar;C:\kafka\kafkaPatron3\libs\connect-transforms-3.2.1.jar;C:\kafka\kafkaPatron3\libs\hk2-api-2.6.1.jar;C:\kafka\kafkaPatron3\libs\hk2-locator-2.6.1.jar;C:\kafka\kafkaPatron3\libs\hk2-utils-2.6.1.jar;C:\kafka\kafkaPatron3\libs\jackson-annotations-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-core-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-databind-2.12.6.1.jar;C:\kafka\kafkaPatron3\libs\jackson-dataformat-csv-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-datatype-jdk8-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-jaxrs-base-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-jaxrs-json-provider-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-module-jaxb-annotations-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jackson-module-scala_2.12-2.12.6.jar;C:\kafka\kafkaPatron3\libs\jakarta.activation-api-1.2.1.jar;C:\kafka\kafkaPatron3\libs\jakarta.annotation-api-1.3.5.jar;C:\kafka\kafkaPatron3\libs\jakarta.inject-2.6.1.jar;C:\kafka\kafkaPatron3\libs\jakarta.validation-api-2.0.2.jar;C:\kafka\kafkaPatron3\libs\jakarta.ws.rs-api-2.1.6.jar;C:\kafka\kafkaPatron3\libs\jakarta.xml.bind-api-2.3.2.jar;C:\kafka\kafkaPatron3\libs\javassist-3.27.0-GA.jar;C:\kafka\kafkaPatron3\libs\javax.servlet-api-3.1.0.jar;C:\kafka\kafkaPatron3\libs\javax.ws.rs-api-2.1.1.jar;C:\kafka\kafkaPatron3\libs\jaxb-api-2.3.0.jar;C:\kafka\kafkaPatron3\libs\jersey-client-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-common-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-container-servlet-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-container-servlet-core-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-hk2-2.34.jar;C:\kafka\kafkaPatron3\libs\jersey-server-2.34.jar;C:\kafka\kafkaPatron3\libs\jetty-client-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-continuation-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-http-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-io-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-security-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-server-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-servlet-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-servlets-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-util-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jetty-util-ajax-9.4.44.v20210927.jar;C:\kafka\kafkaPatron3\libs\jline-3.21.0.jar;C:\kafka\kafkaPatron3\libs\jopt-simple-5.0.4.jar;C:\kafka\kafkaPatron3\libs\jose4j-0.7.9.jar;C:\kafka\kafkaPatron3\libs\kafka-clients-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-log4j-appender-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-metadata-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-raft-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-server-common-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-shell-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-storage-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-storage-api-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-examples-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-scala_2.12-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-streams-test-utils-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka-tools-3.2.1.jar;C:\kafka\kafkaPatron3\libs\kafka_2.12-3.2.1.jar;C:\kafka\kafkaPatron3\libs\lz4-java-1.8.0.jar;C:\kafka\kafkaPatron3\libs\maven-artifact-3.8.4.jar;C:\kafka\kafkaPatron3\libs\metrics-core-2.2.0.jar;C:\kafka\kafkaPatron3\libs\metrics-core-4.1.12.1.jar;C:\kafka\kafkaPatron3\libs\netty-buffer-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-codec-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-common-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-handler-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-resolver-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-tcnative-classes-2.0.46.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-classes-epoll-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-native-epoll-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\netty-transport-native-unix-common-4.1.73.Final.jar;C:\kafka\kafkaPatron3\libs\osgi-resource-locator-1.0.3.jar;C:\kafka\kafkaPatron3\libs\paranamer-2.8.jar;C:\kafka\kafkaPatron3\libs\plexus-utils-3.3.0.jar;C:\kafka\kafkaPatron3\libs\reflections-0.9.12.jar;C:\kafka\kafkaPatron3\libs\reload4j-1.2.19.jar;C:\kafka\kafkaPatron3\libs\rocksdbjni-6.29.4.1.jar;C:\kafka\kafkaPatron3\libs\scala-collection-compat_2.12-2.6.0.jar;C:\kafka\kafkaPatron3\libs\scala-java8-compat_2.12-1.0.2.jar;C:\kafka\kafkaPatron3\libs\scala-library-2.12.15.jar;C:\kafka\kafkaPatron3\libs\scala-logging_2.12-3.9.4.jar;C:\kafka\kafkaPatron3\libs\scala-reflect-2.12.15.jar;C:\kafka\kafkaPatron3\libs\slf4j-api-1.7.36.jar;C:\kafka\kafkaPatron3\libs\slf4j-reload4j-1.7.36.jar;C:\kafka\kafkaPatron3\libs\snappy-java-1.1.8.4.jar;C:\kafka\kafkaPatron3\libs\trogdor-3.2.1.jar;C:\kafka\kafkaPatron3\libs\zookeeper-3.6.3.jar;C:\kafka\kafkaPatron3\libs\zookeeper-jute-3.6.3.jar;C:\kafka\kafkaPatron3\libs\zstd-jni-1.5.2-1.jar (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,664] INFO Client environment:java.library.path=C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.6.0_x64__8wekyb3d8bbwe;C:\oracle\product\10.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\gs\gs8.64\bin;C:\Program Files (x86)\gs\gs8.64\lib;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\java\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\java-11-openjdk-11.0.10.9-1.windows.redhat.x86_64\bin;C:\Users\mniampira\AppData\Local\Microsoft\WindowsApps;C:\Users\mniampira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mniampira\AppData\Roaming\npm;C:\Users\mniampira\AppData\Local\Programs\oh-my-posh\bin;. (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,664] INFO Client environment:java.io.tmpdir=C:\Users\MNIAMP~1\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,665] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,665] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,665] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,666] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,666] INFO Client environment:user.name=mniampira (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,666] INFO Client environment:user.home=C:\Users\mniampira (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,666] INFO Client environment:user.dir=C:\kafka\kafkaPatron3\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,667] INFO Client environment:os.memory.free=1009MB (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,667] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,667] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,669] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@fc258b1 (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:52:57,682] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2022-10-11 11:52:57,689] INFO zookeeper.request.timeout value is 0. feature enabled=false (org.apache.zookeeper.ClientCnxn)
+[2022-10-11 11:52:57,692] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2022-10-11 11:52:57,694] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2022-10-11 11:52:57,697] INFO Socket connection established, initiating session, client: /127.0.0.1:54355, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2022-10-11 11:52:57,705] INFO Creating new log file: log.bf (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2022-10-11 11:52:57,716] INFO Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x10000ffee470000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2022-10-11 11:52:57,720] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2022-10-11 11:52:57,845] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2022-10-11 11:52:58,033] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2022-10-11 11:52:58,039] INFO Cluster ID = WxennIwsRvqsssQwzk5YCg (kafka.server.KafkaServer)
+[2022-10-11 11:52:58,149] INFO KafkaConfig values: 
+	advertised.listeners = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 3.2-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = C:kafkakafkabroker1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 3.0-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metadata.log.max.record.bytes.between.snapshots = 20971520
+	metadata.log.segment.bytes = 1073741824
+	metadata.log.segment.min.bytes = 8388608
+	metadata.log.segment.ms = 604800000
+	metadata.max.retention.bytes = -1
+	metadata.max.retention.ms = 604800000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = 0
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	remote.log.index.file.cache.total.size.bytes = 1073741824
+	remote.log.manager.task.interval.ms = 30000
+	remote.log.manager.task.retry.backoff.max.ms = 30000
+	remote.log.manager.task.retry.backoff.ms = 500
+	remote.log.manager.task.retry.jitter = 0.2
+	remote.log.manager.thread.pool.size = 10
+	remote.log.metadata.manager.class.name = null
+	remote.log.metadata.manager.class.path = null
+	remote.log.metadata.manager.impl.prefix = null
+	remote.log.metadata.manager.listener.name = null
+	remote.log.reader.max.pending.tasks = 100
+	remote.log.reader.threads = 10
+	remote.log.storage.manager.class.name = null
+	remote.log.storage.manager.class.path = null
+	remote.log.storage.manager.impl.prefix = null
+	remote.log.storage.system.enable = false
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.listen.backlog.size = 50
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+ (kafka.server.KafkaConfig)
+[2022-10-11 11:52:58,196] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:52:58,196] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:52:58,199] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:52:58,201] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:52:58,252] INFO Loading logs from log dirs ArrayBuffer(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,255] INFO Attempting recovery for all logs in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1 since no clean shutdown file was found (kafka.log.LogManager)
+[2022-10-11 11:52:58,386] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,389] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,390] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,391] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,469] INFO [ProducerStateManager partition=prueba10-1-0] Wrote producer snapshot at offset 5 with 1 producer ids in 9 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,514] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,514] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,515] INFO [ProducerStateManager partition=prueba10-1-0] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-0\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,523] INFO [LogLoader partition=prueba10-1-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 9ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,552] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-0, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 244ms (1/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,567] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,567] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,568] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,568] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,579] INFO [ProducerStateManager partition=prueba10-1-1] Wrote producer snapshot at offset 7 with 1 producer ids in 4 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,590] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 7 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,590] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 7 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,591] INFO [ProducerStateManager partition=prueba10-1-1] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-1\00000000000000000007.snapshot,7)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,596] INFO [LogLoader partition=prueba10-1-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 7 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,602] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-1, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=7) with 1 segments in 49ms (2/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,614] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,615] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,615] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,616] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,628] INFO [ProducerStateManager partition=prueba10-1-2] Wrote producer snapshot at offset 6 with 1 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,639] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 6 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,639] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 6 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,640] INFO [ProducerStateManager partition=prueba10-1-2] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-2\00000000000000000006.snapshot,6)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,644] INFO [LogLoader partition=prueba10-1-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 4ms for snapshot load and 0ms for segment recovery from offset 6 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,649] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-2, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=2, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=6) with 1 segments in 46ms (3/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,658] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,659] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,660] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,660] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,670] INFO [ProducerStateManager partition=prueba10-1-3] Wrote producer snapshot at offset 3 with 1 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,678] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 3 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,679] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 3 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,679] INFO [ProducerStateManager partition=prueba10-1-3] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-3\00000000000000000003.snapshot,3)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,684] INFO [LogLoader partition=prueba10-1-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 3 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,689] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-3, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 40ms (4/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,703] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,703] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,704] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,704] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,714] INFO [ProducerStateManager partition=prueba10-1-4] Wrote producer snapshot at offset 5 with 1 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,723] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,724] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,724] INFO [ProducerStateManager partition=prueba10-1-4] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-4\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,728] INFO [LogLoader partition=prueba10-1-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 4ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,732] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-4, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=4, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 44ms (5/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,743] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,744] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,744] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,745] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,755] INFO [ProducerStateManager partition=prueba10-1-5] Wrote producer snapshot at offset 7 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,765] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 7 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,765] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 7 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,765] INFO [ProducerStateManager partition=prueba10-1-5] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-5\00000000000000000007.snapshot,7)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,771] INFO [LogLoader partition=prueba10-1-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 6ms for snapshot load and 0ms for segment recovery from offset 7 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,776] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-5, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=5, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=7) with 1 segments in 43ms (6/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,787] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,788] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,789] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,789] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,798] INFO [ProducerStateManager partition=prueba10-1-6] Wrote producer snapshot at offset 5 with 1 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,808] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,808] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,808] INFO [ProducerStateManager partition=prueba10-1-6] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-6\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,813] INFO [LogLoader partition=prueba10-1-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,818] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-6, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 42ms (7/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,829] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,830] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,831] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,831] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,842] INFO [ProducerStateManager partition=prueba10-1-7] Wrote producer snapshot at offset 5 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,850] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,851] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,851] INFO [ProducerStateManager partition=prueba10-1-7] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-7\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,856] INFO [LogLoader partition=prueba10-1-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,861] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-7, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=7, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 42ms (8/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,871] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,872] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,872] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,873] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,883] INFO [ProducerStateManager partition=prueba10-1-8] Wrote producer snapshot at offset 5 with 1 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,893] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,894] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,894] INFO [ProducerStateManager partition=prueba10-1-8] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-8\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,900] INFO [LogLoader partition=prueba10-1-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 6ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,905] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-8, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=8, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 43ms (9/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,920] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,921] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,922] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,922] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,934] INFO [ProducerStateManager partition=prueba10-1-9] Wrote producer snapshot at offset 3 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,944] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 3 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,945] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 3 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,945] INFO [ProducerStateManager partition=prueba10-1-9] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-9\00000000000000000003.snapshot,3)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:58,950] INFO [LogLoader partition=prueba10-1-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 3 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,954] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\prueba10-1-9, topicId=cGIjWI4MTOOGPWROojhaOw, topic=prueba10-1, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 48ms (10/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:58,963] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:58,964] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,965] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,965] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,978] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,979] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,979] INFO [LogLoader partition=ReportAutorizador-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:58,990] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-0, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 35ms (11/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,008] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,010] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,010] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,010] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,022] INFO [ProducerStateManager partition=ReportAutorizador-1] Wrote producer snapshot at offset 2 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,033] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 2 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,033] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,034] INFO [ProducerStateManager partition=ReportAutorizador-1] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-1\00000000000000000002.snapshot,2)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,040] INFO [LogLoader partition=ReportAutorizador-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 7ms for snapshot load and 0ms for segment recovery from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,050] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-1, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=2) with 1 segments in 60ms (12/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,066] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,066] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,067] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,067] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,079] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,080] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,081] INFO [LogLoader partition=ReportAutorizador-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,092] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-2, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=2, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 41ms (13/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,108] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,109] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,109] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,109] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,120] INFO [ProducerStateManager partition=ReportAutorizador-3] Wrote producer snapshot at offset 8 with 7 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,128] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 8 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,128] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 8 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,129] INFO [ProducerStateManager partition=ReportAutorizador-3] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-3\00000000000000000008.snapshot,8)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,134] INFO [LogLoader partition=ReportAutorizador-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 6ms for snapshot load and 0ms for segment recovery from offset 8 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,140] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-3, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=8) with 1 segments in 47ms (14/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,151] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,152] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,152] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,153] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,162] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,163] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,163] INFO [LogLoader partition=ReportAutorizador-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,170] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-4, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=4, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 29ms (15/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,183] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,184] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,184] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,184] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,195] INFO [ProducerStateManager partition=ReportAutorizador-5] Wrote producer snapshot at offset 2 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,203] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 2 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,203] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,203] INFO [ProducerStateManager partition=ReportAutorizador-5] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-5\00000000000000000002.snapshot,2)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,209] INFO [LogLoader partition=ReportAutorizador-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 6ms for snapshot load and 0ms for segment recovery from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,217] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-5, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=5, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=2) with 1 segments in 47ms (16/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,228] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,229] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,229] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,230] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,240] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,241] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,241] INFO [LogLoader partition=ReportAutorizador-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,248] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-6, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 30ms (17/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,260] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,261] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,261] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,261] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,272] INFO [ProducerStateManager partition=ReportAutorizador-7] Wrote producer snapshot at offset 2 with 1 producer ids in 6 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,282] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 2 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,282] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,282] INFO [ProducerStateManager partition=ReportAutorizador-7] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-7\00000000000000000002.snapshot,2)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,287] INFO [LogLoader partition=ReportAutorizador-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,293] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-7, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=7, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=2) with 1 segments in 45ms (18/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,303] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,304] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,304] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,304] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,316] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,316] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,316] INFO [LogLoader partition=ReportAutorizador-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,323] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-8, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=8, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 29ms (19/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,343] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,344] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,345] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,345] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,361] INFO [ProducerStateManager partition=ReportAutorizador-9] Wrote producer snapshot at offset 1 with 1 producer ids in 10 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,369] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 1 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,370] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 1 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,370] INFO [ProducerStateManager partition=ReportAutorizador-9] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-9\00000000000000000001.snapshot,1)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,373] INFO [LogLoader partition=ReportAutorizador-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 3ms for snapshot load and 0ms for segment recovery from offset 1 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,380] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\ReportAutorizador-9, topicId=Ff7X_bLrTqWtHE7il0nmMQ, topic=ReportAutorizador, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=1) with 1 segments in 57ms (20/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,389] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,389] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,390] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,390] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,401] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,401] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,401] INFO [LogLoader partition=__consumer_offsets-0, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,409] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-0, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 29ms (21/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,415] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,416] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,416] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,417] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,428] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,428] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,428] INFO [LogLoader partition=__consumer_offsets-1, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,432] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-1, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 22ms (22/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,437] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,438] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,438] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,438] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,449] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,449] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,449] INFO [LogLoader partition=__consumer_offsets-10, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,451] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-10, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=10, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (23/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,457] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,458] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,458] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,459] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,470] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,471] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,471] INFO [LogLoader partition=__consumer_offsets-11, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,474] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-11, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=11, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 22ms (24/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,480] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,480] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,481] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,481] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,492] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,492] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,492] INFO [LogLoader partition=__consumer_offsets-12, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,496] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-12, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=12, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 22ms (25/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,502] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,503] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,503] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,503] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,512] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,512] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,512] INFO [LogLoader partition=__consumer_offsets-13, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,516] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-13, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=13, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (26/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,522] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,523] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,523] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,523] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,533] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,534] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,534] INFO [LogLoader partition=__consumer_offsets-14, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,537] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-14, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=14, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (27/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,543] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,543] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,543] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,544] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,553] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,553] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,553] INFO [LogLoader partition=__consumer_offsets-15, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,556] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-15, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=15, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (28/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,563] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,563] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,564] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,564] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,574] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,574] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,574] INFO [LogLoader partition=__consumer_offsets-16, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,576] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-16, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=16, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (29/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,582] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,583] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,583] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,583] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,592] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,592] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,592] INFO [LogLoader partition=__consumer_offsets-17, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,595] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-17, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=17, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (30/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,601] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,601] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,601] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,602] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,612] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,612] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,612] INFO [LogLoader partition=__consumer_offsets-18, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,614] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-18, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=18, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (31/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,620] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,620] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,620] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,621] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,631] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,632] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,632] INFO [LogLoader partition=__consumer_offsets-19, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,634] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-19, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=19, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (32/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,639] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,640] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,640] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,640] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,650] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,650] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,650] INFO [LogLoader partition=__consumer_offsets-2, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,652] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-2, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=2, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (33/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,657] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,658] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,658] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,658] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,668] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,668] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,668] INFO [LogLoader partition=__consumer_offsets-20, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,671] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-20, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=20, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (34/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,676] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,677] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,677] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,677] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,687] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,687] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,687] INFO [LogLoader partition=__consumer_offsets-21, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,689] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-21, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=21, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (35/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,695] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,696] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,696] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,696] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,705] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,705] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,706] INFO [LogLoader partition=__consumer_offsets-22, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,708] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-22, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=22, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (36/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,713] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,714] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,714] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,714] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,723] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,724] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,724] INFO [LogLoader partition=__consumer_offsets-23, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,726] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-23, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=23, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (37/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,731] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,732] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,732] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,732] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,741] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,741] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,742] INFO [LogLoader partition=__consumer_offsets-24, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,744] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-24, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=24, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (38/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,749] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,750] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,750] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,750] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,759] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,759] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,759] INFO [LogLoader partition=__consumer_offsets-25, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,761] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-25, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=25, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (39/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,766] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,766] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,767] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,767] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,784] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,784] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,785] INFO [LogLoader partition=__consumer_offsets-26, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,787] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-26, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=26, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 25ms (40/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,795] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,796] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,796] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,796] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,810] INFO [ProducerStateManager partition=__consumer_offsets-27] Wrote producer snapshot at offset 63 with 0 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,819] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 63 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,819] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 63 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,819] INFO [ProducerStateManager partition=__consumer_offsets-27] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-27\00000000000000000063.snapshot,63)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:52:59,823] INFO [LogLoader partition=__consumer_offsets-27, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 4ms for snapshot load and 0ms for segment recovery from offset 63 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,826] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-27, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=27, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=63) with 1 segments in 37ms (41/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,833] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,833] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,833] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,834] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,844] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,845] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,845] INFO [LogLoader partition=__consumer_offsets-28, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,848] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-28, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=28, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 21ms (42/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,852] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,852] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,853] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,853] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,863] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,863] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,864] INFO [LogLoader partition=__consumer_offsets-29, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,867] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-29, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=29, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (43/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,872] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,873] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,873] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,873] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,884] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,884] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,885] INFO [LogLoader partition=__consumer_offsets-3, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,888] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-3, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 21ms (44/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,894] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,895] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,895] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,895] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,906] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,906] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,907] INFO [LogLoader partition=__consumer_offsets-30, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,909] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-30, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=30, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 21ms (45/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,915] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,916] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,916] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,916] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,927] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,927] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,927] INFO [LogLoader partition=__consumer_offsets-31, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,929] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-31, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=31, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (46/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,934] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,934] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,935] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,935] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,944] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,944] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,944] INFO [LogLoader partition=__consumer_offsets-32, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,946] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-32, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=32, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (47/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,950] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,951] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,951] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,951] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,960] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,960] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,960] INFO [LogLoader partition=__consumer_offsets-33, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,963] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-33, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=33, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (48/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,969] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,970] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,970] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,970] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,980] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,980] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,980] INFO [LogLoader partition=__consumer_offsets-34, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,982] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-34, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=34, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (49/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:52:59,987] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:52:59,987] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,987] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,987] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,996] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,996] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,996] INFO [LogLoader partition=__consumer_offsets-35, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:52:59,999] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-35, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=35, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (50/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,006] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,008] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,008] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,008] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,017] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,018] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,018] INFO [LogLoader partition=__consumer_offsets-36, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,020] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-36, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=36, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 21ms (51/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,026] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,027] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,027] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,027] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,036] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,037] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,037] INFO [LogLoader partition=__consumer_offsets-37, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,039] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-37, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=37, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (52/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,045] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,046] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,046] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,046] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,055] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,055] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,055] INFO [LogLoader partition=__consumer_offsets-38, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,057] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-38, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=38, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (53/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,063] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,063] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,063] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,064] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,073] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,073] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,073] INFO [LogLoader partition=__consumer_offsets-39, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,075] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-39, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=39, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (54/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,083] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,083] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,084] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,084] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,101] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,101] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,101] INFO [LogLoader partition=__consumer_offsets-4, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,103] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-4, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=4, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 27ms (55/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,107] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,108] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,108] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,108] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,121] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,121] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,121] INFO [LogLoader partition=__consumer_offsets-40, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,123] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-40, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=40, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (56/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,129] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,130] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,130] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,130] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,139] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,139] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,139] INFO [LogLoader partition=__consumer_offsets-41, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,143] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-41, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=41, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (57/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,148] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,148] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,149] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,149] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,159] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,159] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,159] INFO [LogLoader partition=__consumer_offsets-42, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,161] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-42, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=42, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 17ms (58/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,170] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,171] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,171] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,171] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,184] INFO [ProducerStateManager partition=__consumer_offsets-43] Wrote producer snapshot at offset 68 with 0 producer ids in 5 ms. (kafka.log.ProducerStateManager)
+[2022-10-11 11:53:00,192] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 68 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,192] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 68 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,193] INFO [ProducerStateManager partition=__consumer_offsets-43] Loading producer state from snapshot file 'SnapshotFile(C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-43\00000000000000000068.snapshot,68)' (kafka.log.ProducerStateManager)
+[2022-10-11 11:53:00,194] INFO [LogLoader partition=__consumer_offsets-43, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 68 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,195] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-43, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=43, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=68) with 1 segments in 33ms (59/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,199] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,200] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,200] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,200] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,211] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,212] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,212] INFO [LogLoader partition=__consumer_offsets-44, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,213] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-44, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=44, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (60/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,217] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,218] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,218] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,218] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,228] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,228] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,229] INFO [LogLoader partition=__consumer_offsets-45, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,232] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-45, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=45, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 18ms (61/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,237] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,237] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,238] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,238] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,248] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,248] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,248] INFO [LogLoader partition=__consumer_offsets-46, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,252] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-46, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=46, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (62/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,257] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,258] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,258] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,259] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,267] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,268] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,268] INFO [LogLoader partition=__consumer_offsets-47, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,270] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-47, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=47, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 19ms (63/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,276] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,277] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,277] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,277] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,287] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,288] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,288] INFO [LogLoader partition=__consumer_offsets-48, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,291] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-48, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=48, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 20ms (64/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,295] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,296] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,296] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,296] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,305] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,305] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,305] INFO [LogLoader partition=__consumer_offsets-49, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,307] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-49, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=49, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 16ms (65/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,311] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,311] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,311] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,312] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,329] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,329] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,329] INFO [LogLoader partition=__consumer_offsets-5, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,332] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-5, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=5, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 24ms (66/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,335] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,336] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,336] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,336] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,352] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,352] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,352] INFO [LogLoader partition=__consumer_offsets-6, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,354] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-6, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 22ms (67/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,358] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,358] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,358] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,358] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,368] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,368] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,369] INFO [LogLoader partition=__consumer_offsets-7, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,370] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-7, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=7, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 16ms (68/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,374] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,375] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,375] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,375] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,384] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,384] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,384] INFO [LogLoader partition=__consumer_offsets-8, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,386] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-8, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=8, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 16ms (69/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,389] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-10-11 11:53:00,389] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,390] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,390] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,400] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,400] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,400] INFO [LogLoader partition=__consumer_offsets-9, dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-10-11 11:53:00,402] INFO Completed load of Log(dir=C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1\__consumer_offsets-9, topicId=Mm0tVQLjSfGSJcYcsP4Rmw, topic=__consumer_offsets, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 15ms (70/70 loaded in C:\kafka\kafkaPatron3\bin\windows\kafkakafkabroker1) (kafka.log.LogManager)
+[2022-10-11 11:53:00,403] INFO Loaded 70 logs in 2151ms. (kafka.log.LogManager)
+[2022-10-11 11:53:00,404] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2022-10-11 11:53:00,405] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2022-10-11 11:53:00,947] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,079] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2022-10-11 11:53:01,083] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+[2022-10-11 11:53:01,115] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2022-10-11 11:53:01,126] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,154] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,155] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,156] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,156] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,171] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2022-10-11 11:53:01,232] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2022-10-11 11:53:01,262] ERROR Error while creating ephemeral at /brokers/ids/0, node already exists and owner '72057708631293952' does not match current session '72058693252218880' (kafka.zk.KafkaZkClient$CheckedEphemeral)
+[2022-10-11 11:53:01,269] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:126)
+	at kafka.zk.KafkaZkClient$CheckedEphemeral.getAfterNodeExists(KafkaZkClient.scala:1903)
+	at kafka.zk.KafkaZkClient$CheckedEphemeral.create(KafkaZkClient.scala:1841)
+	at kafka.zk.KafkaZkClient.checkedEphemeralCreate(KafkaZkClient.scala:1808)
+	at kafka.zk.KafkaZkClient.registerBroker(KafkaZkClient.scala:96)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:332)
+	at kafka.Kafka$.main(Kafka.scala:109)
+	at kafka.Kafka.main(Kafka.scala)
+[2022-10-11 11:53:01,272] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2022-10-11 11:53:01,273] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2022-10-11 11:53:01,277] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2022-10-11 11:53:01,283] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2022-10-11 11:53:01,283] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2022-10-11 11:53:01,284] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2022-10-11 11:53:01,284] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2022-10-11 11:53:01,284] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2022-10-11 11:53:01,286] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2022-10-11 11:53:01,286] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2022-10-11 11:53:01,287] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2022-10-11 11:53:01,287] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,288] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,288] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,289] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,290] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,290] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,290] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,291] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,291] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,291] INFO [ExpirationReaper-0-ElectLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,292] INFO [ExpirationReaper-0-ElectLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,292] INFO [ExpirationReaper-0-ElectLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-10-11 11:53:01,299] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2022-10-11 11:53:01,299] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Shutting down (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,299] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Stopped (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,299] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Shutdown completed (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,306] INFO Broker to controller channel manager for alterPartition shutdown (kafka.server.BrokerToControllerChannelManagerImpl)
+[2022-10-11 11:53:01,306] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Shutting down (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,306] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Stopped (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,306] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Shutdown completed (kafka.server.BrokerToControllerRequestThread)
+[2022-10-11 11:53:01,307] INFO Broker to controller channel manager for forwarding shutdown (kafka.server.BrokerToControllerChannelManagerImpl)
+[2022-10-11 11:53:01,308] INFO Shutting down. (kafka.log.LogManager)
+[2022-10-11 11:53:01,650] INFO Shutdown complete. (kafka.log.LogManager)
+[2022-10-11 11:53:01,651] INFO [feature-zk-node-event-process-thread]: Shutting down (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2022-10-11 11:53:01,651] INFO [feature-zk-node-event-process-thread]: Stopped (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2022-10-11 11:53:01,651] INFO [feature-zk-node-event-process-thread]: Shutdown completed (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2022-10-11 11:53:01,652] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2022-10-11 11:53:01,763] INFO Session: 0x10000ffee470000 closed (org.apache.zookeeper.ZooKeeper)
+[2022-10-11 11:53:01,763] INFO EventThread shut down for session: 0x10000ffee470000 (org.apache.zookeeper.ClientCnxn)
+[2022-10-11 11:53:01,765] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2022-10-11 11:53:01,766] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,768] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,768] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,769] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,769] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,769] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,769] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,770] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,770] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,770] INFO [ThrottledChannelReaper-ControllerMutation]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,770] INFO [ThrottledChannelReaper-ControllerMutation]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,770] INFO [ThrottledChannelReaper-ControllerMutation]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-10-11 11:53:01,771] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutting down socket server (kafka.network.SocketServer)
+[2022-10-11 11:53:01,815] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutdown completed (kafka.network.SocketServer)
+[2022-10-11 11:53:01,816] INFO Metrics scheduler closed (org.apache.kafka.common.metrics.Metrics)
+[2022-10-11 11:53:01,817] INFO Closing reporter org.apache.kafka.common.metrics.JmxReporter (org.apache.kafka.common.metrics.Metrics)
+[2022-10-11 11:53:01,817] INFO Metrics reporters closed (org.apache.kafka.common.metrics.Metrics)
+[2022-10-11 11:53:01,820] INFO Broker and topic stats closed (kafka.server.BrokerTopicStats)
+[2022-10-11 11:53:01,828] INFO App info kafka.server for 0 unregistered (org.apache.kafka.common.utils.AppInfoParser)
+[2022-10-11 11:53:01,829] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2022-10-11 11:53:01,829] ERROR Exiting Kafka. (kafka.Kafka$)
+[2022-10-11 11:53:01,830] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2022-10-11 11:53:06,014] INFO Expiring session 0x100001aae4c0000, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
